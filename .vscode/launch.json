@@ -1,0 +1,252 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "FlagAgent",
+      "request": "launch",
+      "mainClass": "pu.project.app.agents.FlagAgent",
+      "projectName": "my-app"
+    },
+    {
+      "type": "java",
+      "name": "BuildingManager",
+      "request": "launch",
+      "mainClass": "pu.project.app.agents.BuildingManager",
+      "projectName": "my-app"
+    },
+    {
+      "type": "java",
+      "name": "MapEnvinronment",
+      "request": "launch",
+      "mainClass": "pu.project.app.map.MapEnvinronment",
+      "projectName": "my-app"
+    },
+    {
+      "type": "java",
+      "name": "MissionAgent",
+      "request": "launch",
+      "mainClass": "pu.project.app.agents.MissionAgent",
+      "projectName": "my-app"
+    },
+    {
+      "type": "java",
+      "name": "MapGrid",
+      "request": "launch",
+      "mainClass": "pu.project.app.map.MapGrid",
+      "projectName": "my-app"
+    },
+    {
+      "type": "java",
+      "name": "TestView",
+      "request": "launch",
+      "mainClass": "pu.project.app.map.TestView",
+      "projectName": "my-app"
+    },
+    {
+      "type": "java",
+      "name": "MapEnvironment",
+      "request": "launch",
+      "mainClass": "pu.project.app.map.MapEnvironment",
+      "projectName": "my-app"
+    },
+    {
+      "type": "java",
+      "name": "MapSimulation",
+      "request": "launch",
+      "mainClass": "pu.project.app.map.MapSimulation",
+      "projectName": "my-app"
+    },
+    {
+      "type": "java",
+      "name": "HelicopterAgent",
+      "request": "launch",
+      "mainClass": "pu.project.app.agents.HelicopterAgent",
+      "projectName": "my-app"
+    },
+    {
+      "type": "java",
+      "name": "MilitaryVehicleAgent",
+      "request": "launch",
+      "mainClass": "pu.project.app.agents.MilitaryVehicleAgent",
+      "projectName": "my-app"
+    },
+    {
+      "type": "java",
+      "name": "APCAgent",
+      "request": "launch",
+      "mainClass": "pu.project.app.agents.APCAgent",
+      "projectName": "my-app"
+    },
+    {
+      "type": "java",
+      "name": "CommCenterAgent",
+      "request": "launch",
+      "mainClass": "pu.project.app.agents.CommCenterAgent",
+      "projectName": "my-app"
+    },
+    {
+      "type": "java",
+      "name": "BuildingAgent",
+      "request": "launch",
+      "mainClass": "pu.project.app.agents.BuildingAgent",
+      "projectName": "my-app"
+    },
+    {
+      "type": "java",
+      "name": "BaseRespawnAgent",
+      "request": "launch",
+      "mainClass": "pu.project.app.agents.BaseRespawnAgent",
+      "projectName": "my-app"
+    },
+    {
+      "type": "java",
+      "name": "IntelligentAgent",
+      "request": "launch",
+      "mainClass": "pu.project.app.agents.IntelligentAgent",
+      "projectName": "my-app"
+    },
+    {
+      "type": "java",
+      "name": "GridWorldGenerator",
+      "request": "launch",
+      "mainClass": "pu.project.app.ontology.GridWorldGenerator",
+      "projectName": "my-app"
+    },
+    {
+      "type": "java",
+      "name": "MapGenerator",
+      "request": "launch",
+      "mainClass": "pu.project.app.ontology.MapGenerator",
+      "projectName": "my-app"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "pu.project.app.ontology.Main",
+      "projectName": "my-app"
+    },
+    {
+      "type": "java",
+      "name": "OntologyInformationExtractor",
+      "request": "launch",
+      "mainClass": "pu.project.app.ontology.OntologyInformationExtractor",
+      "projectName": "my-app"
+    },
+    {
+      "type": "java",
+      "name": "ScenarioInfo",
+      "request": "launch",
+      "mainClass": "pu.project.app.ontology.ScenarioInfo",
+      "projectName": "my-app"
+    },
+    {
+      "type": "java",
+      "name": "OntologyInformationExtractor$Main",
+      "request": "launch",
+      "mainClass": "pu.project.app.ontology.OntologyInformationExtractor$Main",
+      "projectName": "my-app"
+    },
+    {
+      "type": "java",
+      "name": "AirsoftSimulation",
+      "request": "launch",
+      "mainClass": "pu.project.app.map.AirsoftSimulation",
+      "projectName": "my-app"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "pu.project.app.map.Main",
+      "projectName": "my-app"
+    },
+    {
+      "type": "java",
+      "name": "OntologyManager",
+      "request": "launch",
+      "mainClass": "pu.project.app.ontology.OntologyManager",
+      "projectName": "my-app"
+    },
+    {
+      "type": "java",
+      "name": "AirsoftView",
+      "request": "launch",
+      "mainClass": "pu.project.app.map.AirsoftView",
+      "projectName": "my-app"
+    },
+    {
+      "type": "java",
+      "name": "OntologyTest",
+      "request": "launch",
+      "mainClass": "pu.project.app.tests.OntologyTest",
+      "projectName": "my-app"
+    },
+    {
+      "type": "java",
+      "name": "OntologyLoader",
+      "request": "launch",
+      "mainClass": "pu.project.app.ontology.OntologyLoader",
+      "projectName": "my-app"
+    },
+    {
+      "type": "java",
+      "name": "PlayerDeleter",
+      "request": "launch",
+      "mainClass": "pu.project.app.tests.PlayerDeleter",
+      "projectName": "my-app"
+    },
+    {
+      "type": "java",
+      "name": "PlayerGenerator",
+      "request": "launch",
+      "mainClass": "pu.project.app.tests.PlayerGenerator",
+      "projectName": "my-app"
+    },
+    {
+      "type": "java",
+      "name": "FactionAgent",
+      "request": "launch",
+      "mainClass": "pu.project.app.agents.FactionAgent",
+      "projectName": "my-app"
+    },
+    {
+      "type": "java",
+      "name": "DatabaseTest",
+      "request": "launch",
+      "mainClass": "pu.project.app.tests.DatabaseTest",
+      "projectName": "my-app"
+    },
+    {
+      "type": "java",
+      "name": "OntologyAgent",
+      "request": "launch",
+      "mainClass": "pu.project.app.agents.OntologyAgent",
+      "projectName": "my-app"
+    },
+    {
+      "type": "java",
+      "name": "DatabaseAgent",
+      "request": "launch",
+      "mainClass": "pu.project.app.agents.DatabaseAgent",
+      "projectName": "my-app"
+    },
+    {
+      "type": "java",
+      "name": "Launch Application",
+      "request": "launch",
+      "mainClass": "pu.project.app.Application"
+    },
+    {
+      "type": "java",
+      "request": "attach",
+      "name": "Attach to Application started using Maven",
+      "hostName": "localhost",
+      "port": 5408
+    }
+  ]
+}
