@@ -1,0 +1,745 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Prefix name="" IRI="http://www.semanticweb.org/owl/owlapi/turtle#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class abbreviatedIRI=":ArmoredPersonnelCarrier"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Base"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Building"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":CommunicationCenter"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Faction"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Flag"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Helicopter"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":MilitarySUV"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":RespawnPoint"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Scenario"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":SecretMission"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI=":actionInBuilding"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI=":belongsToFaction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI=":belongsToScenario"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI=":participatesInScenario"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI=":hasCenterName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI=":hasFactionName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI=":hasFlagName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI=":hasMissionName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI=":hasScenarioName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI=":numberOfArmoredPersonnelCarriers"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI=":numberOfBuildings"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI=":numberOfMilitarySUVs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":ArmoredPersonnelCarrier4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":ArmoredPersonnelCarrier2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":ArmoredPersonnelCarrier3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":ArmoredPersonnelCarrier1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":MilitarySUV3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":MilitarySUV4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":MilitarySUV1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":MilitarySUV2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":AlphaSecretMission1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":BravoBase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":AlphaFaction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":Helicopter1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":BravoRespawnPoint"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":Building3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":Building2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":Building5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":Building4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":Building1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":BravoFaction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":Building7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":Building6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":Building9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":Building8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":Flag1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":Flag2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":Flag3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":CommCenter1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":BravoSecretMission1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":Scenario"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":AlphaRespawnPoint"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":Building14"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":Building13"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":Building15"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":Building10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":Building12"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":AlphaBase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":Building11"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Base"/>
+        <NamedIndividual abbreviatedIRI=":AlphaBase"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Faction"/>
+        <NamedIndividual abbreviatedIRI=":AlphaFaction"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":RespawnPoint"/>
+        <NamedIndividual abbreviatedIRI=":AlphaRespawnPoint"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":SecretMission"/>
+        <NamedIndividual abbreviatedIRI=":AlphaSecretMission1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":ArmoredPersonnelCarrier"/>
+        <NamedIndividual abbreviatedIRI=":ArmoredPersonnelCarrier1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":ArmoredPersonnelCarrier"/>
+        <NamedIndividual abbreviatedIRI=":ArmoredPersonnelCarrier2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":ArmoredPersonnelCarrier"/>
+        <NamedIndividual abbreviatedIRI=":ArmoredPersonnelCarrier3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":ArmoredPersonnelCarrier"/>
+        <NamedIndividual abbreviatedIRI=":ArmoredPersonnelCarrier4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Base"/>
+        <NamedIndividual abbreviatedIRI=":BravoBase"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Faction"/>
+        <NamedIndividual abbreviatedIRI=":BravoFaction"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":RespawnPoint"/>
+        <NamedIndividual abbreviatedIRI=":BravoRespawnPoint"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":SecretMission"/>
+        <NamedIndividual abbreviatedIRI=":BravoSecretMission1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Building"/>
+        <NamedIndividual abbreviatedIRI=":Building1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Building"/>
+        <NamedIndividual abbreviatedIRI=":Building10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Building"/>
+        <NamedIndividual abbreviatedIRI=":Building11"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Building"/>
+        <NamedIndividual abbreviatedIRI=":Building12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Building"/>
+        <NamedIndividual abbreviatedIRI=":Building13"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Building"/>
+        <NamedIndividual abbreviatedIRI=":Building14"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Building"/>
+        <NamedIndividual abbreviatedIRI=":Building15"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Building"/>
+        <NamedIndividual abbreviatedIRI=":Building2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Building"/>
+        <NamedIndividual abbreviatedIRI=":Building3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Building"/>
+        <NamedIndividual abbreviatedIRI=":Building4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Building"/>
+        <NamedIndividual abbreviatedIRI=":Building5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Building"/>
+        <NamedIndividual abbreviatedIRI=":Building6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Building"/>
+        <NamedIndividual abbreviatedIRI=":Building7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Building"/>
+        <NamedIndividual abbreviatedIRI=":Building8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Building"/>
+        <NamedIndividual abbreviatedIRI=":Building9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":CommunicationCenter"/>
+        <NamedIndividual abbreviatedIRI=":CommCenter1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Flag"/>
+        <NamedIndividual abbreviatedIRI=":Flag1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Flag"/>
+        <NamedIndividual abbreviatedIRI=":Flag2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Flag"/>
+        <NamedIndividual abbreviatedIRI=":Flag3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Helicopter"/>
+        <NamedIndividual abbreviatedIRI=":Helicopter1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":MilitarySUV"/>
+        <NamedIndividual abbreviatedIRI=":MilitarySUV1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":MilitarySUV"/>
+        <NamedIndividual abbreviatedIRI=":MilitarySUV2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":MilitarySUV"/>
+        <NamedIndividual abbreviatedIRI=":MilitarySUV3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":MilitarySUV"/>
+        <NamedIndividual abbreviatedIRI=":MilitarySUV4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Scenario"/>
+        <NamedIndividual abbreviatedIRI=":Scenario"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToFaction"/>
+        <NamedIndividual abbreviatedIRI=":AlphaBase"/>
+        <NamedIndividual abbreviatedIRI=":AlphaFaction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToFaction"/>
+        <NamedIndividual abbreviatedIRI=":AlphaRespawnPoint"/>
+        <NamedIndividual abbreviatedIRI=":AlphaFaction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToFaction"/>
+        <NamedIndividual abbreviatedIRI=":AlphaSecretMission1"/>
+        <NamedIndividual abbreviatedIRI=":AlphaFaction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToScenario"/>
+        <NamedIndividual abbreviatedIRI=":AlphaSecretMission1"/>
+        <NamedIndividual abbreviatedIRI=":Scenario"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToFaction"/>
+        <NamedIndividual abbreviatedIRI=":ArmoredPersonnelCarrier1"/>
+        <NamedIndividual abbreviatedIRI=":AlphaFaction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToScenario"/>
+        <NamedIndividual abbreviatedIRI=":ArmoredPersonnelCarrier1"/>
+        <NamedIndividual abbreviatedIRI=":Scenario"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToFaction"/>
+        <NamedIndividual abbreviatedIRI=":ArmoredPersonnelCarrier2"/>
+        <NamedIndividual abbreviatedIRI=":AlphaFaction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToScenario"/>
+        <NamedIndividual abbreviatedIRI=":ArmoredPersonnelCarrier2"/>
+        <NamedIndividual abbreviatedIRI=":Scenario"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToFaction"/>
+        <NamedIndividual abbreviatedIRI=":ArmoredPersonnelCarrier3"/>
+        <NamedIndividual abbreviatedIRI=":AlphaFaction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToScenario"/>
+        <NamedIndividual abbreviatedIRI=":ArmoredPersonnelCarrier3"/>
+        <NamedIndividual abbreviatedIRI=":Scenario"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToFaction"/>
+        <NamedIndividual abbreviatedIRI=":ArmoredPersonnelCarrier4"/>
+        <NamedIndividual abbreviatedIRI=":BravoFaction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToScenario"/>
+        <NamedIndividual abbreviatedIRI=":ArmoredPersonnelCarrier4"/>
+        <NamedIndividual abbreviatedIRI=":Scenario"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToFaction"/>
+        <NamedIndividual abbreviatedIRI=":BravoBase"/>
+        <NamedIndividual abbreviatedIRI=":BravoFaction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToFaction"/>
+        <NamedIndividual abbreviatedIRI=":BravoRespawnPoint"/>
+        <NamedIndividual abbreviatedIRI=":BravoFaction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToFaction"/>
+        <NamedIndividual abbreviatedIRI=":BravoSecretMission1"/>
+        <NamedIndividual abbreviatedIRI=":BravoFaction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToScenario"/>
+        <NamedIndividual abbreviatedIRI=":BravoSecretMission1"/>
+        <NamedIndividual abbreviatedIRI=":Scenario"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToScenario"/>
+        <NamedIndividual abbreviatedIRI=":Building1"/>
+        <NamedIndividual abbreviatedIRI=":Scenario"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToScenario"/>
+        <NamedIndividual abbreviatedIRI=":Building10"/>
+        <NamedIndividual abbreviatedIRI=":Scenario"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToScenario"/>
+        <NamedIndividual abbreviatedIRI=":Building11"/>
+        <NamedIndividual abbreviatedIRI=":Scenario"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToScenario"/>
+        <NamedIndividual abbreviatedIRI=":Building12"/>
+        <NamedIndividual abbreviatedIRI=":Scenario"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToScenario"/>
+        <NamedIndividual abbreviatedIRI=":Building13"/>
+        <NamedIndividual abbreviatedIRI=":Scenario"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToScenario"/>
+        <NamedIndividual abbreviatedIRI=":Building14"/>
+        <NamedIndividual abbreviatedIRI=":Scenario"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToScenario"/>
+        <NamedIndividual abbreviatedIRI=":Building15"/>
+        <NamedIndividual abbreviatedIRI=":Scenario"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToScenario"/>
+        <NamedIndividual abbreviatedIRI=":Building2"/>
+        <NamedIndividual abbreviatedIRI=":Scenario"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToScenario"/>
+        <NamedIndividual abbreviatedIRI=":Building3"/>
+        <NamedIndividual abbreviatedIRI=":Scenario"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToScenario"/>
+        <NamedIndividual abbreviatedIRI=":Building4"/>
+        <NamedIndividual abbreviatedIRI=":Scenario"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToScenario"/>
+        <NamedIndividual abbreviatedIRI=":Building5"/>
+        <NamedIndividual abbreviatedIRI=":Scenario"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToScenario"/>
+        <NamedIndividual abbreviatedIRI=":Building6"/>
+        <NamedIndividual abbreviatedIRI=":Scenario"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToScenario"/>
+        <NamedIndividual abbreviatedIRI=":Building7"/>
+        <NamedIndividual abbreviatedIRI=":Scenario"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToScenario"/>
+        <NamedIndividual abbreviatedIRI=":Building8"/>
+        <NamedIndividual abbreviatedIRI=":Scenario"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToScenario"/>
+        <NamedIndividual abbreviatedIRI=":Building9"/>
+        <NamedIndividual abbreviatedIRI=":Scenario"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToScenario"/>
+        <NamedIndividual abbreviatedIRI=":CommCenter1"/>
+        <NamedIndividual abbreviatedIRI=":Scenario"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToScenario"/>
+        <NamedIndividual abbreviatedIRI=":Flag1"/>
+        <NamedIndividual abbreviatedIRI=":Scenario"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToScenario"/>
+        <NamedIndividual abbreviatedIRI=":Flag2"/>
+        <NamedIndividual abbreviatedIRI=":Scenario"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToScenario"/>
+        <NamedIndividual abbreviatedIRI=":Flag3"/>
+        <NamedIndividual abbreviatedIRI=":Scenario"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToFaction"/>
+        <NamedIndividual abbreviatedIRI=":Helicopter1"/>
+        <NamedIndividual abbreviatedIRI=":AlphaFaction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToScenario"/>
+        <NamedIndividual abbreviatedIRI=":Helicopter1"/>
+        <NamedIndividual abbreviatedIRI=":Scenario"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToFaction"/>
+        <NamedIndividual abbreviatedIRI=":MilitarySUV1"/>
+        <NamedIndividual abbreviatedIRI=":AlphaFaction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToScenario"/>
+        <NamedIndividual abbreviatedIRI=":MilitarySUV1"/>
+        <NamedIndividual abbreviatedIRI=":Scenario"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToFaction"/>
+        <NamedIndividual abbreviatedIRI=":MilitarySUV2"/>
+        <NamedIndividual abbreviatedIRI=":AlphaFaction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToScenario"/>
+        <NamedIndividual abbreviatedIRI=":MilitarySUV2"/>
+        <NamedIndividual abbreviatedIRI=":Scenario"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToFaction"/>
+        <NamedIndividual abbreviatedIRI=":MilitarySUV3"/>
+        <NamedIndividual abbreviatedIRI=":BravoFaction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToScenario"/>
+        <NamedIndividual abbreviatedIRI=":MilitarySUV3"/>
+        <NamedIndividual abbreviatedIRI=":Scenario"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToFaction"/>
+        <NamedIndividual abbreviatedIRI=":MilitarySUV4"/>
+        <NamedIndividual abbreviatedIRI=":BravoFaction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":belongsToScenario"/>
+        <NamedIndividual abbreviatedIRI=":MilitarySUV4"/>
+        <NamedIndividual abbreviatedIRI=":Scenario"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI=":hasFactionName"/>
+        <NamedIndividual abbreviatedIRI=":AlphaFaction"/>
+        <Literal>Alpha Faction</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI=":hasMissionName"/>
+        <NamedIndividual abbreviatedIRI=":AlphaSecretMission1"/>
+        <Literal>Скрита мисия за Алфа фракция 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI=":hasFactionName"/>
+        <NamedIndividual abbreviatedIRI=":BravoFaction"/>
+        <Literal>Bravo Faction</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI=":hasMissionName"/>
+        <NamedIndividual abbreviatedIRI=":BravoSecretMission1"/>
+        <Literal>Скрита мисия за Браво фракция 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI=":hasCenterName"/>
+        <NamedIndividual abbreviatedIRI=":CommCenter1"/>
+        <Literal>Комуникационен център 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI=":hasFlagName"/>
+        <NamedIndividual abbreviatedIRI=":Flag1"/>
+        <Literal>Флаг 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI=":hasFlagName"/>
+        <NamedIndividual abbreviatedIRI=":Flag2"/>
+        <Literal>Флаг 2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI=":hasFlagName"/>
+        <NamedIndividual abbreviatedIRI=":Flag3"/>
+        <Literal>Флаг 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI=":hasScenarioName"/>
+        <NamedIndividual abbreviatedIRI=":Scenario"/>
+        <Literal>Сценарий</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI=":actionInBuilding"/>
+        <Class abbreviatedIRI=":SecretMission"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI=":belongsToFaction"/>
+        <Class abbreviatedIRI=":ArmoredPersonnelCarrier"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI=":belongsToFaction"/>
+        <Class abbreviatedIRI=":Base"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI=":belongsToFaction"/>
+        <Class abbreviatedIRI=":Building"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI=":belongsToFaction"/>
+        <Class abbreviatedIRI=":Helicopter"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI=":belongsToFaction"/>
+        <Class abbreviatedIRI=":MilitarySUV"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI=":belongsToFaction"/>
+        <Class abbreviatedIRI=":RespawnPoint"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI=":belongsToFaction"/>
+        <Class abbreviatedIRI=":SecretMission"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI=":belongsToScenario"/>
+        <Class abbreviatedIRI=":CommunicationCenter"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI=":belongsToScenario"/>
+        <Class abbreviatedIRI=":Flag"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI=":belongsToScenario"/>
+        <Class abbreviatedIRI=":SecretMission"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI=":participatesInScenario"/>
+        <Class abbreviatedIRI=":Faction"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI=":actionInBuilding"/>
+        <Class abbreviatedIRI=":Building"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI=":belongsToFaction"/>
+        <Class abbreviatedIRI=":Faction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI=":belongsToScenario"/>
+        <Class abbreviatedIRI=":Scenario"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI=":participatesInScenario"/>
+        <Class abbreviatedIRI=":Scenario"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI=":hasCenterName"/>
+        <Class abbreviatedIRI=":CommunicationCenter"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI=":hasFactionName"/>
+        <Class abbreviatedIRI=":Faction"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI=":hasFlagName"/>
+        <Class abbreviatedIRI=":Flag"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI=":hasMissionName"/>
+        <Class abbreviatedIRI=":SecretMission"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI=":hasScenarioName"/>
+        <Class abbreviatedIRI=":Scenario"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI=":numberOfArmoredPersonnelCarriers"/>
+        <Class abbreviatedIRI=":Scenario"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI=":numberOfBuildings"/>
+        <Class abbreviatedIRI=":Scenario"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI=":numberOfMilitarySUVs"/>
+        <Class abbreviatedIRI=":Scenario"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI=":hasCenterName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI=":hasFactionName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI=":hasFlagName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI=":hasMissionName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI=":hasScenarioName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI=":numberOfArmoredPersonnelCarriers"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI=":numberOfBuildings"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI=":numberOfMilitarySUVs"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
