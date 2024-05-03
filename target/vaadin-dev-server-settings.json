@@ -1,0 +1,17 @@
+{
+  "frontendFolder": "C:/Users/SM/Desktop/airsoftField/frontend",
+  "themeFolder": "themes",
+  "themeResourceFolder": "C:/Users/SM/Desktop/airsoftField/frontend/generated/jar-resources",
+  "staticOutput": "target/classes/META-INF/VAADIN/webapp/VAADIN/static",
+  "generatedFolder": "generated",
+  "statsOutput": "target/classes/META-INF/VAADIN/webapp/../config/",
+  "frontendBundleOutput": "target/classes/META-INF/VAADIN/webapp/",
+  "devBundleOutput": "C:/Users/SM/Desktop/airsoftField/target/dev-bundle/webapp",
+  "devBundleStatsOutput": "C:/Users/SM/Desktop/airsoftField/target/dev-bundle/config",
+  "jarResourcesFolder": "C:/Users/SM/Desktop/airsoftField/frontend/generated/jar-resources",
+  "themeName": "",
+  "clientServiceWorkerSource": "C:\\Users\\SM\\Desktop\\airsoftField\\target\\sw.ts",
+  "pwaEnabled": false,
+  "offlineEnabled": false,
+  "offlinePath": "'offline.html'"
+}
