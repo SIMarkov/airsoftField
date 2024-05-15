@@ -163,13 +163,13 @@ public class FieldView extends VerticalLayout {
         String scenarioText;
         switch (scenario) {
             case 1:
-                scenarioText = "Scenario 1: Capture the flag";
+                scenarioText = "Scenario 1: Operation Breakwater";
                 break;
             case 2:
-                scenarioText = "Scenario 2: King of the hill";
+                scenarioText = "Scenario 2: Code: Release";
                 break;
             case 3:
-                scenarioText = "Scenario 3: Search and destroy";
+                scenarioText = "Scenario 3: Operation Chaos";
                 break;
             default:
                 scenarioText = "Scenario: To be determined";
