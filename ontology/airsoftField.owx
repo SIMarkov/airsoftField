@@ -1,0 +1,556 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="file://ontology/airsoftField.owx"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Prefix name="" IRI="http://www.semanticweb.org/owl/owlapi/turtle#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+
+    <!-- ================== CLASSES ================== -->
+    <Declaration><Class IRI="#Agent"/></Declaration>
+    <Declaration><Class IRI="#Building"/></Declaration>
+    <Declaration><Class IRI="#Base"/></Declaration>
+    <Declaration><Class IRI="#RespawnPoint"/></Declaration>
+    <Declaration><Class IRI="#MilitaryVehicle"/></Declaration>
+    <Declaration><Class IRI="#CommCenter"/></Declaration>
+    <Declaration><Class IRI="#Helicopter"/></Declaration>
+    <Declaration><Class IRI="#Flag"/></Declaration>
+    <Declaration><Class IRI="#Mission"/></Declaration>
+    <Declaration><Class IRI="#Scenario"/></Declaration>
+    <Declaration><Class IRI="#Faction"/></Declaration>
+
+    <!-- ================== PROPERTIES ================== -->
+    <!-- Coordinate Properties -->
+    <Declaration><DataProperty IRI="#hasXCoordinate"/></Declaration>
+    <Declaration><DataProperty IRI="#hasYCoordinate"/></Declaration>
+    
+    <!-- Agent Control -->
+    <Declaration><ObjectProperty IRI="#controlledByAgent"/></Declaration>
+    
+    <!-- Mission Properties -->
+    <Declaration><DataProperty IRI="#hasObjectiveType"/></Declaration>
+    
+    <!-- Vehicle Properties -->
+    <Declaration><DataProperty IRI="#hasVehicleType"/></Declaration>
+    
+    <!-- Scenario Properties -->
+    <Declaration><DataProperty IRI="#requiresFlags"/></Declaration>
+    <Declaration><DataProperty IRI="#requiresCommCenter"/></Declaration>
+    <Declaration><DataProperty IRI="#requiresHelicopter"/></Declaration>
+    <Declaration><DataProperty IRI="#requiresMissions"/></Declaration>
+    <Declaration><DataProperty IRI="#scenarioName"/></Declaration>
+
+    <!-- ================== AGENTS ================== -->
+    <Declaration><NamedIndividual IRI="#BaseRespawnAgent"/></Declaration>
+    <Declaration><NamedIndividual IRI="#MilitaryVehicleAgent"/></Declaration>
+    <Declaration><NamedIndividual IRI="#CommCenterAgent"/></Declaration>
+    <Declaration><NamedIndividual IRI="#FlagAgent"/></Declaration>
+    <Declaration><NamedIndividual IRI="#HelicopterAgent"/></Declaration>
+    <Declaration><NamedIndividual IRI="#MissionAgent"/></Declaration>
+    
+    <ClassAssertion><Class IRI="#Agent"/><NamedIndividual IRI="#BaseRespawnAgent"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Agent"/><NamedIndividual IRI="#MilitaryVehicleAgent"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Agent"/><NamedIndividual IRI="#CommCenterAgent"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Agent"/><NamedIndividual IRI="#FlagAgent"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Agent"/><NamedIndividual IRI="#HelicopterAgent"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Agent"/><NamedIndividual IRI="#MissionAgent"/></ClassAssertion>
+
+    <!-- ================== BUILDINGS ================== -->
+    <!-- Building Declarations -->
+    <Declaration><NamedIndividual IRI="#Building1"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Building2"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Building3"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Building4"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Building5"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Building6"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Building7"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Building8"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Building9"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Building10"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Building11"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Building12"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Building13"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Building14"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Building15"/></Declaration>
+    
+    <!-- Building Class Assertions -->
+    <ClassAssertion><Class IRI="#Building"/><NamedIndividual IRI="#Building1"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Building"/><NamedIndividual IRI="#Building2"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Building"/><NamedIndividual IRI="#Building3"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Building"/><NamedIndividual IRI="#Building4"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Building"/><NamedIndividual IRI="#Building5"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Building"/><NamedIndividual IRI="#Building6"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Building"/><NamedIndividual IRI="#Building7"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Building"/><NamedIndividual IRI="#Building8"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Building"/><NamedIndividual IRI="#Building9"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Building"/><NamedIndividual IRI="#Building10"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Building"/><NamedIndividual IRI="#Building11"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Building"/><NamedIndividual IRI="#Building12"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Building"/><NamedIndividual IRI="#Building13"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Building"/><NamedIndividual IRI="#Building14"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Building"/><NamedIndividual IRI="#Building15"/></ClassAssertion>
+    
+   <!-- ===== COORDINATE PROPERTIES ===== -->
+    <Declaration>
+        <DataProperty IRI="#hasXCoordinate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasYCoordinate"/>
+    </Declaration>
+    
+    <!-- Property Domains/Ranges -->
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasXCoordinate"/>
+        <Class IRI="#Building"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasXCoordinate"/>
+        <Datatype IRI="http://www.w3.org/2001/XMLSchema#integer"/>
+    </DataPropertyRange>
+    
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasYCoordinate"/>
+        <Class IRI="#Building"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasYCoordinate"/>
+        <Datatype IRI="http://www.w3.org/2001/XMLSchema#integer"/>
+    </DataPropertyRange>
+
+    <!-- Building Coordinate Assertions -->
+    <!-- Building 1 -->
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasXCoordinate"/>
+        <NamedIndividual IRI="#Building1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasYCoordinate"/>
+        <NamedIndividual IRI="#Building1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    
+    <!-- Building 2 -->
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasXCoordinate"/>
+        <NamedIndividual IRI="#Building2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasYCoordinate"/>
+        <NamedIndividual IRI="#Building2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    
+    <!-- Building 3 -->
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasXCoordinate"/>
+        <NamedIndividual IRI="#Building3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasYCoordinate"/>
+        <NamedIndividual IRI="#Building3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    
+    <!-- Building 4 -->
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasXCoordinate"/>
+        <NamedIndividual IRI="#Building4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasYCoordinate"/>
+        <NamedIndividual IRI="#Building4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9</Literal>
+    </DataPropertyAssertion>
+    
+    <!-- Building 5 -->
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasXCoordinate"/>
+        <NamedIndividual IRI="#Building5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasYCoordinate"/>
+        <NamedIndividual IRI="#Building5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">14</Literal>
+    </DataPropertyAssertion>
+    
+    <!-- Building 6 -->
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasXCoordinate"/>
+        <NamedIndividual IRI="#Building6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasYCoordinate"/>
+        <NamedIndividual IRI="#Building6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">11</Literal>
+    </DataPropertyAssertion>
+    
+    <!-- Building 7 -->
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasXCoordinate"/>
+        <NamedIndividual IRI="#Building7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasYCoordinate"/>
+        <NamedIndividual IRI="#Building7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">11</Literal>
+    </DataPropertyAssertion>
+    
+    <!-- Building 8 -->
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasXCoordinate"/>
+        <NamedIndividual IRI="#Building8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasYCoordinate"/>
+        <NamedIndividual IRI="#Building8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12</Literal>
+    </DataPropertyAssertion>
+    
+    <!-- Building 9 -->
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasXCoordinate"/>
+        <NamedIndividual IRI="#Building9"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasYCoordinate"/>
+        <NamedIndividual IRI="#Building9"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12</Literal>
+    </DataPropertyAssertion>
+    
+    <!-- Building 10 -->
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasXCoordinate"/>
+        <NamedIndividual IRI="#Building10"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasYCoordinate"/>
+        <NamedIndividual IRI="#Building10"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    
+    <!-- Building 11 -->
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasXCoordinate"/>
+        <NamedIndividual IRI="#Building11"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">11</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasYCoordinate"/>
+        <NamedIndividual IRI="#Building11"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9</Literal>
+    </DataPropertyAssertion>
+    
+    <!-- Building 12 -->
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasXCoordinate"/>
+        <NamedIndividual IRI="#Building12"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasYCoordinate"/>
+        <NamedIndividual IRI="#Building12"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9</Literal>
+    </DataPropertyAssertion>
+    
+    <!-- Building 13 -->
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasXCoordinate"/>
+        <NamedIndividual IRI="#Building13"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">11</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasYCoordinate"/>
+        <NamedIndividual IRI="#Building13"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    
+    <!-- Building 14 -->
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasXCoordinate"/>
+        <NamedIndividual IRI="#Building14"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">11</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasYCoordinate"/>
+        <NamedIndividual IRI="#Building14"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+    </DataPropertyAssertion>
+    
+    <!-- Building 15 -->
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasXCoordinate"/>
+        <NamedIndividual IRI="#Building15"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">11</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasYCoordinate"/>
+        <NamedIndividual IRI="#Building15"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    
+    <!-- ================== BASES ================== -->
+    <Declaration><NamedIndividual IRI="#AlphaBase"/></Declaration>
+    <Declaration><NamedIndividual IRI="#BravoBase"/></Declaration>
+    
+    <ClassAssertion><Class IRI="#Base"/><NamedIndividual IRI="#AlphaBase"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Base"/><NamedIndividual IRI="#BravoBase"/></ClassAssertion>
+    
+    <!-- Agent Control -->
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#controlledByAgent"/>
+        <NamedIndividual IRI="#AlphaBase"/>
+        <NamedIndividual IRI="#BaseRespawnAgent"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#controlledByAgent"/>
+        <NamedIndividual IRI="#BravoBase"/>
+        <NamedIndividual IRI="#BaseRespawnAgent"/>
+    </ObjectPropertyAssertion>
+    
+    <!-- ================== RESPAWN POINTS ================== -->
+    <Declaration><NamedIndividual IRI="#AlphaRespawnPoint"/></Declaration>
+    <Declaration><NamedIndividual IRI="#BravoRespawnPoint"/></Declaration>
+    
+    <ClassAssertion><Class IRI="#RespawnPoint"/><NamedIndividual IRI="#AlphaRespawnPoint"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#RespawnPoint"/><NamedIndividual IRI="#BravoRespawnPoint"/></ClassAssertion>
+    
+    <!-- ================== MILITARY VEHICLES ================== -->
+    <Declaration><NamedIndividual IRI="#MilitarySUV1"/></Declaration>
+    <Declaration><NamedIndividual IRI="#MilitarySUV2"/></Declaration>
+    <Declaration><NamedIndividual IRI="#MilitarySUV3"/></Declaration>
+    <Declaration><NamedIndividual IRI="#MilitarySUV4"/></Declaration>
+    <Declaration><NamedIndividual IRI="#MilitaryAPC1"/></Declaration>
+    <Declaration><NamedIndividual IRI="#MilitaryAPC2"/></Declaration>
+    <Declaration><NamedIndividual IRI="#MilitaryAPC3"/></Declaration>
+    <Declaration><NamedIndividual IRI="#MilitaryAPC4"/></Declaration>
+    
+    <!-- Vehicle Class Assertions -->
+    <ClassAssertion><Class IRI="#MilitaryVehicle"/><NamedIndividual IRI="#MilitarySUV1"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#MilitaryVehicle"/><NamedIndividual IRI="#MilitarySUV2"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#MilitaryVehicle"/><NamedIndividual IRI="#MilitarySUV3"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#MilitaryVehicle"/><NamedIndividual IRI="#MilitarySUV4"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#MilitaryVehicle"/><NamedIndividual IRI="#MilitaryAPC1"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#MilitaryVehicle"/><NamedIndividual IRI="#MilitaryAPC2"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#MilitaryVehicle"/><NamedIndividual IRI="#MilitaryAPC3"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#MilitaryVehicle"/><NamedIndividual IRI="#MilitaryAPC4"/></ClassAssertion>
+    
+    <!-- Vehicle Types -->
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasVehicleType"/>
+        <NamedIndividual IRI="#MilitarySUV1"/>
+        <Literal>SUV</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasVehicleType"/>
+        <NamedIndividual IRI="#MilitaryAPC1"/>
+        <Literal>APC</Literal>
+    </DataPropertyAssertion>
+    
+    <!-- Agent Control -->
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#controlledByAgent"/>
+        <NamedIndividual IRI="#MilitarySUV1"/>
+        <NamedIndividual IRI="#MilitaryVehicleAgent"/>
+    </ObjectPropertyAssertion>
+    
+    <!-- ================== COMM CENTER ================== -->
+    <Declaration><NamedIndividual IRI="#CommCenter1"/></Declaration>
+    <ClassAssertion><Class IRI="#CommCenter"/><NamedIndividual IRI="#CommCenter1"/></ClassAssertion>
+    
+    <!-- Agent Control -->
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#controlledByAgent"/>
+        <NamedIndividual IRI="#CommCenter1"/>
+        <NamedIndividual IRI="#CommCenterAgent"/>
+    </ObjectPropertyAssertion>
+    
+    <!-- ================== HELICOPTER ================== -->
+    <Declaration><NamedIndividual IRI="#Helicopter1"/></Declaration>
+    <ClassAssertion><Class IRI="#Helicopter"/><NamedIndividual IRI="#Helicopter1"/></ClassAssertion>
+    
+    <!-- Agent Control -->
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#controlledByAgent"/>
+        <NamedIndividual IRI="#Helicopter1"/>
+        <NamedIndividual IRI="#HelicopterAgent"/>
+    </ObjectPropertyAssertion>
+    
+    <!-- ================== FLAGS ================== -->
+    <Declaration><NamedIndividual IRI="#Flag1"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Flag2"/></Declaration>
+    <Declaration><NamedIndividual IRI="#Flag3"/></Declaration>
+    
+    <ClassAssertion><Class IRI="#Flag"/><NamedIndividual IRI="#Flag1"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Flag"/><NamedIndividual IRI="#Flag2"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Flag"/><NamedIndividual IRI="#Flag3"/></ClassAssertion>
+    
+    <!-- Agent Control -->
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#controlledByAgent"/>
+        <NamedIndividual IRI="#Flag1"/>
+        <NamedIndividual IRI="#FlagAgent"/>
+    </ObjectPropertyAssertion>
+    
+    <!-- ================== MISSIONS ================== -->
+    <Declaration><NamedIndividual IRI="#AlphaMission1"/></Declaration>
+    <Declaration><NamedIndividual IRI="#AlphaMission2"/></Declaration>
+    <Declaration><NamedIndividual IRI="#BravoMission1"/></Declaration>
+    <Declaration><NamedIndividual IRI="#BravoMission2"/></Declaration>
+    
+    <ClassAssertion><Class IRI="#Mission"/><NamedIndividual IRI="#AlphaMission1"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Mission"/><NamedIndividual IRI="#AlphaMission2"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Mission"/><NamedIndividual IRI="#BravoMission1"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Mission"/><NamedIndividual IRI="#BravoMission2"/></ClassAssertion>
+    
+    <!-- Mission Types -->
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasObjectiveType"/>
+        <NamedIndividual IRI="#AlphaMission1"/>
+        <Literal>DestroyCommCenter</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasObjectiveType"/>
+        <NamedIndividual IRI="#BravoMission1"/>
+        <Literal>CaptureFlag</Literal>
+    </DataPropertyAssertion>
+    
+    <!-- Agent Control -->
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#controlledByAgent"/>
+        <NamedIndividual IRI="#AlphaMission1"/>
+        <NamedIndividual IRI="#MissionAgent"/>
+    </ObjectPropertyAssertion>
+    
+    <!-- ================== SCENARIOS ================== -->
+    <Declaration><NamedIndividual IRI="#CaptureTheFlagScenario"/></Declaration>
+    <Declaration><NamedIndividual IRI="#KingOfTheHillScenario"/></Declaration>
+    <Declaration><NamedIndividual IRI="#SearchAndDestroyScenario"/></Declaration>
+    
+    <ClassAssertion><Class IRI="#Scenario"/><NamedIndividual IRI="#CaptureTheFlagScenario"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Scenario"/><NamedIndividual IRI="#KingOfTheHillScenario"/></ClassAssertion>
+    <ClassAssertion><Class IRI="#Scenario"/><NamedIndividual IRI="#SearchAndDestroyScenario"/></ClassAssertion>
+    
+    <!-- Scenario Properties -->
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scenarioName"/>
+        <NamedIndividual IRI="#CaptureTheFlagScenario"/>
+        <Literal>Capture the Flag</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requiresFlags"/>
+        <NamedIndividual IRI="#CaptureTheFlagScenario"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scenarioName"/>
+        <NamedIndividual IRI="#KingOfTheHillScenario"/>
+        <Literal>King of the Hill</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requiresHelicopter"/>
+        <NamedIndividual IRI="#KingOfTheHillScenario"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scenarioName"/>
+        <NamedIndividual IRI="#SearchAndDestroyScenario"/>
+        <Literal>Search and Destroy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requiresCommCenter"/>
+        <NamedIndividual IRI="#SearchAndDestroyScenario"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requiresMissions"/>
+        <NamedIndividual IRI="#SearchAndDestroyScenario"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    
+    <!-- ================== PROPERTY DOMAINS/RANGES ================== -->
+    <!-- Coordinate Properties -->
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasXCoordinate"/>
+        <Class IRI="#Building"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasXCoordinate"/>
+        <Datatype IRI="http://www.w3.org/2001/XMLSchema#integer"/>
+    </DataPropertyRange>
+    
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasYCoordinate"/>
+        <Class IRI="#Building"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasYCoordinate"/>
+        <Datatype IRI="http://www.w3.org/2001/XMLSchema#integer"/>
+    </DataPropertyRange>
+    
+    <!-- Agent Control Property -->
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#controlledByAgent"/>
+        <Class IRI="#Base"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#controlledByAgent"/>
+        <Class IRI="#Agent"/>
+    </ObjectPropertyRange>
+    
+    <!-- Vehicle Type Property -->
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasVehicleType"/>
+        <Class IRI="#MilitaryVehicle"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasVehicleType"/>
+        <Datatype IRI="http://www.w3.org/2001/XMLSchema#string"/>
+    </DataPropertyRange>
+    
+    <!-- Mission Objective Property -->
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasObjectiveType"/>
+        <Class IRI="#Mission"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasObjectiveType"/>
+        <Datatype IRI="http://www.w3.org/2001/XMLSchema#string"/>
+    </DataPropertyRange>
+    
+    <!-- Scenario Properties -->
+    <DataPropertyDomain>
+        <DataProperty IRI="#requiresFlags"/>
+        <Class IRI="#Scenario"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#requiresFlags"/>
+        <Datatype IRI="http://www.w3.org/2001/XMLSchema#integer"/>
+    </DataPropertyRange>
+    
+    <DataPropertyDomain>
+        <DataProperty IRI="#requiresCommCenter"/>
+        <Class IRI="#Scenario"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#requiresCommCenter"/>
+        <Datatype IRI="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </DataPropertyRange>
+</Ontology>
